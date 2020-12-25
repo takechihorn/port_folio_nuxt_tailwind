@@ -1,0 +1,15 @@
+projects:
+  TailwindPortFolioApi:
+    schemaPath: amplify/backend/api/TailwindPortFolioApi/build/schema.graphql
+    includes:
+      - src/graphql/**/*.js
+    excludes:
+      - ./amplify/**
+    extensions:
+      amplify:
+        codeGenTarget: javascript
+        generatedFileName: ''
+        docsFilePath: /graphql
+        region: ap-northeast-1
+        apiId: null
+        maxDepth: 5
